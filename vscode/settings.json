@@ -1,0 +1,56 @@
+{
+  // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+  // "editor.fontFamily": "Droid Sans Mono Slashed for Powerline",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": ["d"], // put d into black hole register
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "editor.renderWhitespace": "all",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  // "editor.detectIndentation": true,
+  "editor.insertSpaces": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "node_modules": false,
+    "dist": false,
+    "test/unit/coverage": true
+  },
+  "vim.disableAnnoyingNeovimMessage": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "emmet.syntaxProfiles": {
+    "vue-html": "html"
+  },
+  "emmet.useNewEmmet": false,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  "editor.formatOnSave": false,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": false,
+  "workbench.iconTheme": "vscode-icons"
+}
